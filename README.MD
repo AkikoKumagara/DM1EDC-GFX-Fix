@@ -8,6 +8,6 @@ Use your favorite IPS patcher to patch the extracted ROM.
 
 Do not apply to a retail Japanese ROM, only ROMs extracted from your own copy of Early Days Collection using [Cowabunga](https://github.com/Masquerade64/Cowabunga).
 
-Before: ![A screenshot showing graphical corruption in DM1](https://github.com/AkikoKumagara/DM1EDC-GFX-Fix/blob/main/Screenshots/before.png)
+Before: ![A screenshot showing graphical corruption in DM1](https://github.com/AkikoKumagara/DM1EDC-GFX-Fix/blob/main/screenshots/before.png)
 
-After: ![A screenshot showing graphical corruption fix in DM1](https://github.com/AkikoKumagara/DM1EDC-GFX-Fix/blob/main/Screenshots/after.png)
+After: ![A screenshot showing graphical corruption fix in DM1](https://github.com/AkikoKumagara/DM1EDC-GFX-Fix/blob/main/screenshots/after.png)
