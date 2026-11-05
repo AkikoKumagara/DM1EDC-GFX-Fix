@@ -10,10 +10,10 @@ Use your favorite IPS patcher to patch the extracted ROM.
 
 Do not apply to a retail Japanese ROM, only ROMs extracted from your own copy of Early Days Collection using [Cowabunga](https://github.com/Masquerade64/Cowabunga).
 
-Before: 
+Before: <br>
   <img src="https://github.com/AkikoKumagara/DM1EDC-GFX-Fix/blob/main/screenshots/before.png" />
 
-After:
+After: <br>
   <img src="https://github.com/AkikoKumagara/DM1EDC-GFX-Fix/blob/main/screenshots/after.png" />
 
 ---
@@ -71,11 +71,3 @@ This preserves the original game assets while correcting the code responsible fo
 The patching work was extended beyond the English release. The patcher supports the English, Japanese, French, German, Italian, and Spanish ROM variants.
 The patching process is designed to preserve the full 2 MiB ROM image rather than unnecessarily truncating it to 1 MiB. This is important for maintaining the original ROM layout and avoiding unrelated changes to data outside the affected regions.
 The English release was tested in mGBA and MiSTer FPGA. The corrected version displays card artwork, attack-animation sprites, and card-destruction sprites without the corruption observed in the unpatched Early Days Collection release.
-
-### Summary
-
-The DM1 graphics fix corrects two related but distinct problems:
-
-- **Card graphics:** corrects the card-art/portrait graphics issue.
-- **Animated graphics:** restores the original retail graphics-transfer code and its corresponding execution path.
-Rather than replacing the game's artwork, the patch restores the behavior needed for the original graphics to display correctly.
