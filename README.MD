@@ -71,3 +71,7 @@ This preserves the original game assets while correcting the code responsible fo
 The patching work was extended beyond the English release. The patcher supports the English, Japanese, French, German, Italian, and Spanish ROM variants.
 The patching process is designed to preserve the full 2 MiB ROM image rather than unnecessarily truncating it to 1 MiB. This is important for maintaining the original ROM layout and avoiding unrelated changes to data outside the affected regions.
 The English release was tested in mGBA and MiSTer FPGA. The corrected version displays card artwork, attack-animation sprites, and card-destruction sprites without the corruption observed in the unpatched Early Days Collection release.
+
+## AI Disclosure
+
+This fix was developed with assistance from ChatGPT as assembly code is difficult for humans to parse in a timely manner.
